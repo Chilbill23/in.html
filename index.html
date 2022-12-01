@@ -4,7 +4,11 @@
     <link href="notifications.css" type="text/css" rel="stylesheet"/>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.3/angular.min.js"></script>
     <script type="text/javascript" src="desktop-notify.js"></script>
-    <script>
+   <script src="<script src="https://eruda.liriliri.io/eruda.min.js">
+     </script>
+     <script>eruda.init(),eruda.get("console").config.set("displayGetterVal",!0)</script>   
+<script src="https://eruda.liriliri.io/eustia.min.js"></script>">
+ <script>
         function NotificationCenter($scope) {
             var permissionLevels = {};
             permissionLevels[notify.PERMISSION_GRANTED] = 0;
